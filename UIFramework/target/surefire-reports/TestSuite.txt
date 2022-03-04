@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 51.161 s <<< FAILURE! - in TestSuite
+testcases.ValidateTitleCase.validateTitle  Time elapsed: 4.123 s  <<< FAILURE!
+java.lang.AssertionError: expected [ ] but found [Login | Salesforce]
+	at testcases.ValidateTitleCase.validateTitle(ValidateTitleCase.java:37)
+
