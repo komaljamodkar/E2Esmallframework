@@ -1,0 +1,10 @@
+pageObjects\ForgotpassPageObject.class
+testcases\HomePageTestCase01.class
+testcases\RegisterTestCase01.class
+pageObjects\RegisterPageObject.class
+utility\CoreUtils.class
+baseClass\Baseclass.class
+testcases\Listeners.class
+utility\ExtentReporterNG.class
+pageObjects\HomePageObject.class
+testcases\ValidateTitleCase.class

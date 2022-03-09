@@ -1,0 +1,5 @@
+13:30:59.235 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+13:31:00.605 [TestNG-tests-1] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x75ca3df88f37fdbc
+13:31:00.769 [TestNG-tests-2] INFO  testcases.HomePageTestCase01 - driver is initialized..
+13:31:00.769 [TestNG-tests-3] INFO  testcases.ValidateTitleCase - driver is initialized..
+13:31:00.772 [TestNG-tests-1] INFO  testcases.RegisterTestCase01 - driver is initialized..
