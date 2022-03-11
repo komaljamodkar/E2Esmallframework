@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="53512" started-at="2022-03-01T16:29:49 IST" finished-at="2022-03-01T16:30:42 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="53512" started-at="2022-03-01T16:29:49 IST" finished-at="2022-03-01T16:30:42 IST">
+      <class name="gridPkg.Seleniumgrid">
+        <test-method status="PASS" signature="login()[pri:0, instance:gridPkg.Seleniumgrid@3ecd23d9]" name="login" duration-ms="21700" started-at="2022-03-01T16:29:49 IST" finished-at="2022-03-01T16:30:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- gridPkg.Seleniumgrid -->
+      <class name="gridPkg.Seleniumgrid2">
+        <test-method status="PASS" signature="login()[pri:0, instance:gridPkg.Seleniumgrid2@69b0fd6f]" name="login" duration-ms="53321" started-at="2022-03-01T16:29:49 IST" finished-at="2022-03-01T16:30:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- gridPkg.Seleniumgrid2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="19" passed="19">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6928" started-at="2022-03-08T15:31:10 IST" finished-at="2022-03-08T15:31:17 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestngRunner2extent@5a4041cc]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="6928" started-at="2022-03-08T15:31:10 IST" finished-at="2022-03-08T15:31:17 IST">
+      <class name="testRunner.TestngRunner2extent">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestngRunner2extent@5a4041cc]" name="setUpClass" is-config="true" duration-ms="3252" started-at="2022-03-08T15:31:10 IST" finished-at="2022-03-08T15:31:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c7a975a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestngRunner2extent@5a4041cc]" name="runScenario" duration-ms="1277" started-at="2022-03-08T15:31:14 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-08T15:31:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home page default login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Portal Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestngRunner2extent@5a4041cc]" name="runScenario" duration-ms="1104" started-at="2022-03-08T15:31:14 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-08T15:31:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home page default login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Portal Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestngRunner2extent@5a4041cc]" name="runScenario" duration-ms="1147" started-at="2022-03-08T15:31:14 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-08T15:31:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home page default login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Portal Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestngRunner2extent@5a4041cc]" name="runScenario" duration-ms="1182" started-at="2022-03-08T15:31:14 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-08T15:31:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home page default login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Title of your feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestngRunner2extent@5a4041cc]" name="runScenario" duration-ms="1237" started-at="2022-03-08T15:31:14 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-08T15:31:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home page default login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Portal Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestngRunner2extent@5a4041cc]" name="runScenario" duration-ms="1096" started-at="2022-03-08T15:31:14 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-08T15:31:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home page default login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Portal Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestngRunner2extent@5a4041cc]" name="runScenario" duration-ms="1235" started-at="2022-03-08T15:31:14 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-08T15:31:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home page default login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Portal Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestngRunner2extent@5a4041cc]" name="runScenario" duration-ms="1304" started-at="2022-03-08T15:31:14 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-08T15:31:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home page default login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Portal Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestngRunner2extent@5a4041cc]" name="runScenario" duration-ms="1267" started-at="2022-03-08T15:31:14 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-08T15:31:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home page default login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Portal Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestngRunner2extent@5a4041cc]" name="runScenario" duration-ms="1122" started-at="2022-03-08T15:31:14 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-08T15:31:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home page default login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Title of your feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestngRunner2extent@5a4041cc]" name="runScenario" duration-ms="174" started-at="2022-03-08T15:31:15 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-08T15:31:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home page default login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Title of your feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestngRunner2extent@5a4041cc]" name="runScenario" duration-ms="175" started-at="2022-03-08T15:31:15 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-08T15:31:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home page default login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Title of your feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestngRunner2extent@5a4041cc]" name="runScenario" duration-ms="282" started-at="2022-03-08T15:31:15 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-08T15:31:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home page default login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Title of your feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestngRunner2extent@5a4041cc]" name="runScenario" duration-ms="124" started-at="2022-03-08T15:31:15 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-08T15:31:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home page default login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Title of your feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestngRunner2extent@5a4041cc]" name="runScenario" duration-ms="186" started-at="2022-03-08T15:31:15 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-08T15:31:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home page default login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Title of your feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestngRunner2extent@5a4041cc]" name="runScenario" duration-ms="159" started-at="2022-03-08T15:31:15 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-08T15:31:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home page default login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Title of your feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestngRunner2extent@5a4041cc]" name="runScenario" duration-ms="180" started-at="2022-03-08T15:31:15 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-08T15:31:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Title of your scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Title of your feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestngRunner2extent@5a4041cc]" name="runScenario" duration-ms="105" started-at="2022-03-08T15:31:15 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-08T15:31:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Title of your scenario outline"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Title of your feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestngRunner2extent@5a4041cc]" name="runScenario" duration-ms="50" started-at="2022-03-08T15:31:15 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-08T15:31:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Title of your scenario outline"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Title of your feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunner.TestngRunner2extent@5a4041cc]" name="tearDownClass" is-config="true" duration-ms="2101" started-at="2022-03-08T15:31:15 IST" finished-at="2022-03-08T15:31:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.TestngRunner2extent -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

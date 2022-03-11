@@ -1,0 +1,7 @@
+10:14:59.927 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x0908a7d50773b042
+10:15:00.248 [main] INFO  beta.SeleniumExample - Window Maximized
+10:15:00.248 [main] DEBUG beta.SeleniumExample - Now hitting Amazon server
+10:15:05.675 [main] INFO  beta.SeleniumExample - Landed on amazon home page
+10:15:17.207 [main] DEBUG beta.SeleniumExample - Getting the frames count
+10:15:17.405 [main] INFO  beta.SeleniumExample - Frames count retreived
+10:15:17.457 [main] INFO  beta.SeleniumExample - Successfully switched to frame

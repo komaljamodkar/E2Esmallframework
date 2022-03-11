@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="12.645" tests="33" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\developmentAveto\workspace\cucumberExample\target\test-classes;C:\developmentAveto\workspace\cucumberExample\target\classes;C:\Users\user\.m2\repository\io\cucumber\cucumber-junit\7.2.3\cucumber-junit-7.2.3.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-core\7.2.3\cucumber-core-7.2.3.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-gherkin\7.2.3\cucumber-gherkin-7.2.3.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.2.3\cucumber-gherkin-messages-7.2.3.jar;C:\Users\user\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\user\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-expressions\15.0.1\cucumber-expressions-15.0.1.jar;C:\Users\user\.m2\repository\io\cucumber\datatable\7.2.3\datatable-7.2.3.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-plugin\7.2.3\cucumber-plugin-7.2.3.jar;C:\Users\user\.m2\repository\io\cucumber\docstring\7.2.3\docstring-7.2.3.jar;C:\Users\user\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\user\.m2\repository\io\cucumber\ci-environment\8.1.0\ci-environment-8.1.0.jar;C:\Users\user\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-java\7.2.3\cucumber-java-7.2.3.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-testng\7.2.3\cucumber-testng-7.2.3.jar;C:\Users\user\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\user\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\user\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\user\.m2\repository\io\github\bonigarcia\webdrivermanager\5.0.3\webdrivermanager-5.0.3.jar;C:\Users\user\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\user\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;C:\Users\user\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java\3.2.12\docker-java-3.2.12.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-core\3.2.12\docker-java-core-3.2.12.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-api\3.2.12\docker-java-api-3.2.12.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\user\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\user\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\user\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\user\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.12\docker-java-transport-httpclient5-3.2.12.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport\3.2.12\docker-java-transport-3.2.12.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\user\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\user\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\user\.m2\repository\com\google\guava\guava\30.1.1-jre\guava-30.1.1-jre.jar;C:\Users\user\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\user\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\user\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\user\.m2\repository\org\checkerframework\checker-qual\3.8.0\checker-qual-3.8.0.jar;C:\Users\user\.m2\repository\com\google\errorprone\error_prone_annotations\2.5.1\error_prone_annotations-2.5.1.jar;C:\Users\user\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\user\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.1\selenium-java-4.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.1\selenium-api-4.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.1\selenium-chrome-driver-4.1.1.jar;C:\Users\user\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\user\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\user\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.1\selenium-chromium-driver-4.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.1\selenium-json-4.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.1\selenium-devtools-v85-4.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v94\4.1.1\selenium-devtools-v94-4.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v95\4.1.1\selenium-devtools-v95-4.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v96\4.1.1\selenium-devtools-v96-4.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.1\selenium-edge-driver-4.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.1\selenium-firefox-driver-4.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.1.1\selenium-firefox-xpi-driver-4.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.1\selenium-ie-driver-4.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.1\selenium-opera-driver-4.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.1\selenium-remote-driver-4.1.1.jar;C:\Users\user\.m2\repository\io\netty\netty-buffer\4.1.70.Final\netty-buffer-4.1.70.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-codec-http\4.1.70.Final\netty-codec-http-4.1.70.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-codec\4.1.70.Final\netty-codec-4.1.70.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-handler\4.1.70.Final\netty-handler-4.1.70.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-common\4.1.70.Final\netty-common-4.1.70.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.70.Final\netty-transport-classes-epoll-4.1.70.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.70.Final\netty-transport-classes-kqueue-4.1.70.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.70.Final\netty-transport-native-unix-common-4.1.70.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport\4.1.70.Final\netty-transport-4.1.70.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-resolver\4.1.70.Final\netty-resolver-4.1.70.Final.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api\1.9.1\opentelemetry-api-1.9.1.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-context\1.9.1\opentelemetry-context-1.9.1.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.9.1\opentelemetry-exporter-logging-1.9.1.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.9.1-alpha\opentelemetry-sdk-metrics-1.9.1-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.9.1-alpha\opentelemetry-sdk-logs-1.9.1-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.9.1\opentelemetry-sdk-common-1.9.1.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.9.1\opentelemetry-sdk-extension-autoconfigure-spi-1.9.1.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.9.1-alpha\opentelemetry-sdk-extension-autoconfigure-1.9.1-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.9.1\opentelemetry-sdk-trace-1.9.1.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api-metrics\1.9.1-alpha\opentelemetry-api-metrics-1.9.1-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.9.1\opentelemetry-sdk-1.9.1.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.9.1-alpha\opentelemetry-semconv-1.9.1-alpha.jar;C:\Users\user\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy\1.12.2\byte-buddy-1.12.2.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\user\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\user\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\user\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\user\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\user\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.1\selenium-http-4.1.1.jar;C:\Users\user\.m2\repository\net\jodah\failsafe\2.4.4\failsafe-2.4.4.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.1\selenium-safari-driver-4.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.1\selenium-support-4.1.1.jar;C:\Users\user\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\user\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\user\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\user\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\user\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\user\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.3.0\extentreports-cucumber7-adapter-1.3.0.jar;C:\Users\user\.m2\repository\tech\grasshopper\extent-pdf-report\2.1.0\extent-pdf-report-2.1.0.jar;C:\Users\user\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.5.0\cucumber-pdf-report-2.5.0.jar;C:\Users\user\.m2\repository\org\apache\pdfbox\pdfbox\2.0.25\pdfbox-2.0.25.jar;C:\Users\user\.m2\repository\org\apache\pdfbox\fontbox\2.0.25\fontbox-2.0.25.jar;C:\Users\user\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\user\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\user\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\user\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\user\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\user\.m2\repository\tech\grasshopper\table-layout\1.4.0\table-layout-1.4.0.jar;C:\Users\user\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.1.0\rest-assured-cucumber-pdf-report-1.1.0.jar;C:\Users\user\.m2\repository\com\aventstack\klov-reporter\5.0.9\klov-reporter-5.0.9.jar;C:\Users\user\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\user\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\user\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\user\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\user\.m2\repository\tech\grasshopper\htmlextentreporter\1.0.0\htmlextentreporter-1.0.0.jar;C:\Users\user\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_311\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\user\AppData\Local\Temp\surefire5787425855662468110\surefirebooter379697475830214426.jar C:\Users\user\AppData\Local\Temp\surefire5787425855662468110 2022-03-08T16-58-20_826-jvmRun1 surefire2192652523589089606tmp surefire_06920634777480672825tmp"/>
+    <property name="surefire.test.class.path" value="C:\developmentAveto\workspace\cucumberExample\target\test-classes;C:\developmentAveto\workspace\cucumberExample\target\classes;C:\Users\user\.m2\repository\io\cucumber\cucumber-junit\7.2.3\cucumber-junit-7.2.3.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-core\7.2.3\cucumber-core-7.2.3.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-gherkin\7.2.3\cucumber-gherkin-7.2.3.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.2.3\cucumber-gherkin-messages-7.2.3.jar;C:\Users\user\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\user\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-expressions\15.0.1\cucumber-expressions-15.0.1.jar;C:\Users\user\.m2\repository\io\cucumber\datatable\7.2.3\datatable-7.2.3.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-plugin\7.2.3\cucumber-plugin-7.2.3.jar;C:\Users\user\.m2\repository\io\cucumber\docstring\7.2.3\docstring-7.2.3.jar;C:\Users\user\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\user\.m2\repository\io\cucumber\ci-environment\8.1.0\ci-environment-8.1.0.jar;C:\Users\user\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-java\7.2.3\cucumber-java-7.2.3.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-testng\7.2.3\cucumber-testng-7.2.3.jar;C:\Users\user\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\user\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\user\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\user\.m2\repository\io\github\bonigarcia\webdrivermanager\5.0.3\webdrivermanager-5.0.3.jar;C:\Users\user\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\user\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;C:\Users\user\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java\3.2.12\docker-java-3.2.12.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-core\3.2.12\docker-java-core-3.2.12.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-api\3.2.12\docker-java-api-3.2.12.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\user\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\user\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\user\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\user\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.12\docker-java-transport-httpclient5-3.2.12.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport\3.2.12\docker-java-transport-3.2.12.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\user\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\user\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\user\.m2\repository\com\google\guava\guava\30.1.1-jre\guava-30.1.1-jre.jar;C:\Users\user\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\user\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\user\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\user\.m2\repository\org\checkerframework\checker-qual\3.8.0\checker-qual-3.8.0.jar;C:\Users\user\.m2\repository\com\google\errorprone\error_prone_annotations\2.5.1\error_prone_annotations-2.5.1.jar;C:\Users\user\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\user\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.1\selenium-java-4.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.1\selenium-api-4.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.1\selenium-chrome-driver-4.1.1.jar;C:\Users\user\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\user\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\user\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.1\selenium-chromium-driver-4.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.1\selenium-json-4.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.1\selenium-devtools-v85-4.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v94\4.1.1\selenium-devtools-v94-4.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v95\4.1.1\selenium-devtools-v95-4.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v96\4.1.1\selenium-devtools-v96-4.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.1\selenium-edge-driver-4.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.1\selenium-firefox-driver-4.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.1.1\selenium-firefox-xpi-driver-4.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.1\selenium-ie-driver-4.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.1\selenium-opera-driver-4.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.1\selenium-remote-driver-4.1.1.jar;C:\Users\user\.m2\repository\io\netty\netty-buffer\4.1.70.Final\netty-buffer-4.1.70.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-codec-http\4.1.70.Final\netty-codec-http-4.1.70.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-codec\4.1.70.Final\netty-codec-4.1.70.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-handler\4.1.70.Final\netty-handler-4.1.70.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-common\4.1.70.Final\netty-common-4.1.70.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.70.Final\netty-transport-classes-epoll-4.1.70.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.70.Final\netty-transport-classes-kqueue-4.1.70.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.70.Final\netty-transport-native-unix-common-4.1.70.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport\4.1.70.Final\netty-transport-4.1.70.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-resolver\4.1.70.Final\netty-resolver-4.1.70.Final.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api\1.9.1\opentelemetry-api-1.9.1.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-context\1.9.1\opentelemetry-context-1.9.1.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.9.1\opentelemetry-exporter-logging-1.9.1.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.9.1-alpha\opentelemetry-sdk-metrics-1.9.1-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.9.1-alpha\opentelemetry-sdk-logs-1.9.1-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.9.1\opentelemetry-sdk-common-1.9.1.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.9.1\opentelemetry-sdk-extension-autoconfigure-spi-1.9.1.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.9.1-alpha\opentelemetry-sdk-extension-autoconfigure-1.9.1-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.9.1\opentelemetry-sdk-trace-1.9.1.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api-metrics\1.9.1-alpha\opentelemetry-api-metrics-1.9.1-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.9.1\opentelemetry-sdk-1.9.1.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.9.1-alpha\opentelemetry-semconv-1.9.1-alpha.jar;C:\Users\user\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy\1.12.2\byte-buddy-1.12.2.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\user\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\user\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\user\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\user\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\user\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.1\selenium-http-4.1.1.jar;C:\Users\user\.m2\repository\net\jodah\failsafe\2.4.4\failsafe-2.4.4.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.1\selenium-safari-driver-4.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.1\selenium-support-4.1.1.jar;C:\Users\user\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\user\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\user\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\user\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\user\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\user\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.3.0\extentreports-cucumber7-adapter-1.3.0.jar;C:\Users\user\.m2\repository\tech\grasshopper\extent-pdf-report\2.1.0\extent-pdf-report-2.1.0.jar;C:\Users\user\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.5.0\cucumber-pdf-report-2.5.0.jar;C:\Users\user\.m2\repository\org\apache\pdfbox\pdfbox\2.0.25\pdfbox-2.0.25.jar;C:\Users\user\.m2\repository\org\apache\pdfbox\fontbox\2.0.25\fontbox-2.0.25.jar;C:\Users\user\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\user\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\user\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\user\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\user\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\user\.m2\repository\tech\grasshopper\table-layout\1.4.0\table-layout-1.4.0.jar;C:\Users\user\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.1.0\rest-assured-cucumber-pdf-report-1.1.0.jar;C:\Users\user\.m2\repository\com\aventstack\klov-reporter\5.0.9\klov-reporter-5.0.9.jar;C:\Users\user\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\user\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\user\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\user\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\user\.m2\repository\tech\grasshopper\htmlextentreporter\1.0.0\htmlextentreporter-1.0.0.jar;C:\Users\user\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\user"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_311\jre"/>
+    <property name="basedir" value="C:\developmentAveto\workspace\cucumberExample"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\user\AppData\Local\Temp\surefire5787425855662468110\surefirebooter379697475830214426.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_311\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_311\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_311-b11"/>
+    <property name="user.name" value="user"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_311\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\user\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\user\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_311"/>
+    <property name="user.dir" value="C:\developmentAveto\workspace\cucumberExample"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_311\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/developmentAveto/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin/server;C:/developmentAveto/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;%JAVA_HOME\bin%;C:\Program Files\nodejs;C:\developmentAveto\apache-maven-3.8.4\bin;C:\Program Files\Git\cmd;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Users\user\AppData\Roaming\npm;E:\developmentAvecto\Microsoft VS Code\bin;C:\developmentAveto\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.311-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_311\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Home page default login&quot;, &quot;Optional[Title of your feature]&quot;](1)" classname="testRunner.TestngRunner" time="0.499">
+    <system-out><![CDATA[
+@tag @WebTest
+Scenario Outline: Home page default login                         # src/test/java/features/login.feature:64
+
+@tag @WebTest
+Scenario: Home page default login                                 # src/test/java/features/login.feature:24
+
+@tag @WebTest
+Scenario Outline: Home page default login                         # src/test/java/features/login.feature:65
+
+@tag @tag2
+Scenario Outline: Title of your scenario outline         # src/test/java/features/login.feature:96
+
+@tag @tag2
+Scenario Outline: Title of your scenario outline         # src/test/java/features/login.feature:95
+
+@tag @WebTest
+Scenario Outline: Home page default login                         # src/test/java/features/login.feature:63
+
+@tag @WebTest
+Scenario Outline: Home page default login                         # src/test/java/features/login.feature:62
+  Given User is on NetBanking landing page                        # stepDefinitions.stepDefination.user_is_on_netbanking_landing_page()
+  Given User is on NetBanking landing page                        # stepDefinitions.stepDefination.user_is_on_netbanking_landing_page()
+  Given I want to write a step with name2                # stepDefinitions.StepDefinition.i_want_to_write_a_step_with_name1(java.lang.String)
+  Given I want to write a step with name1                # stepDefinitions.StepDefinition.i_want_to_write_a_step_with_name1(java.lang.String)
+  Given User is on NetBanking landing page                        # stepDefinitions.stepDefination.user_is_on_netbanking_landing_page()
+  Given User is on NetBanking landing page                        # stepDefinitions.stepDefination.user_is_on_netbanking_landing_page()
+  When I check for the 5 in step                         # stepDefinitions.StepDefinition.i_check_for_the_in_step(java.lang.Integer)
+  When User login in to application with user3 and password pass3 # stepDefinitions.stepDefination.user_login_into_application_with_and_password(java.lang.String,java.lang.String)
+  When User login into application with "jin" and password "1234" # stepDefinitions.stepDefination.user_login_into_application_with_something_and_password_something(java.lang.String,java.lang.String)
+  Given User is on NetBanking landing page                        # stepDefinitions.stepDefination.user_is_on_netbanking_landing_page()
+  When User login in to application with user4 and password pass4 # stepDefinitions.stepDefination.user_login_into_application_with_and_password(java.lang.String,java.lang.String)
+  Then Home page is populated                                     # stepDefinitions.stepDefination.home_page_is_populated()
+  And Cards displayed are "true"                                  # stepDefinitions.stepDefination.cards_displayed_are(java.lang.String)
+  When I check for the 7 in step                         # stepDefinitions.StepDefinition.i_check_for_the_in_step(java.lang.Integer)
+  Then I verify the success in step                      # stepDefinitions.StepDefinition.i_verify_the_success_in_step(java.lang.String)
+  When User login in to application with user2 and password pass2 # stepDefinitions.stepDefination.user_login_into_application_with_and_password(java.lang.String,java.lang.String)
+  Then Home page is populated                                     # stepDefinitions.stepDefination.home_page_is_populated()
+  And Cards displayed are "true"                                  # stepDefinitions.stepDefination.cards_displayed_are(java.lang.String)
+  Then Home page is populated                                     # stepDefinitions.stepDefination.home_page_is_populated()
+  Given Login to the url "https://login.salesforce.com/" # stepDefinitions.StepDefinition.login_to_the_url(java.lang.String)
+  When Verify the title of page                          # stepDefinitions.StepDefinition.verify_the_title_of_page()
+  Then Verify the details                                # stepDefinitions.StepDefinition.verify_the_details(io.cucumber.datatable.DataTable)
+    | fname | lname | email            | contact   | country |
+    | abcd  | xyz   | abcd.xyz@abc.com | 345666566 | US      |
+  Then Enter from City Pune                              # stepDefinitions.StepDefinition.enter_from_city_from_city(java.lang.String)
+  And To City Mumbai                                     # stepDefinitions.StepDefinition.to_city_to_city(java.lang.String)
+  Then Click on Search button                            # stepDefinitions.StepDefinition.click_on_search_button()
+  Then Home page is populated                                     # stepDefinitions.stepDefination.home_page_is_populated()
+  And Cards displayed are "true"                                  # stepDefinitions.stepDefination.cards_displayed_are(java.lang.String)
+  When User login in to application with user1 and password pass1 # stepDefinitions.stepDefination.user_login_into_application_with_and_password(java.lang.String,java.lang.String)
+  Then Home page is populated                                     # stepDefinitions.stepDefination.home_page_is_populated()
+  And Cards displayed are "true"                                  # stepDefinitions.stepDefination.cards_displayed_are(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Mar 08, 2022 4:58:26 PM io.cucumber.core.runtime.FeaturePathFeatureSupplier get
+WARNING: Got no path to feature directory or feature file
+┌───────────────────────────────────────────────────────────────────────────────────┐
+│ Share your Cucumber Report with your team at https://reports.cucumber.io          │
+│ Activate publishing with one of the following:                                    │
+│                                                                                   │
+│ src/test/resources/cucumber.properties:          cucumber.publish.enabled=true    │
+│ src/test/resources/junit-platform.properties:    cucumber.publish.enabled=true    │
+│ Environment variable:                            CUCUMBER_PUBLISH_ENABLED=true    │
+│ JUnit:                                           @CucumberOptions(publish = true) │
+│                                                                                   │
+│ More information at https://cucumber.io/docs/cucumber/environment-variables/      │
+│                                                                                   │
+│ Disable this message with one of the following:                                   │
+│                                                                                   │
+│ src/test/resources/cucumber.properties:          cucumber.publish.quiet=true      │
+│ src/test/resources/junit-platform.properties:    cucumber.publish.quiet=true      │
+└───────────────────────────────────────────────────────────────────────────────────┘
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Title of your scenario outline&quot;, &quot;Optional[Title of your feature]&quot;](3)" classname="testRunner.TestngRunner" time="0.502">
+    <system-out><![CDATA[  Then Close the browser                                 # stepDefinitions.StepDefinition.close_the_browser()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Home page default login&quot;, &quot;Optional[Title of your feature]&quot;](2)" classname="testRunner.TestngRunner" time="0.502"/>
+  <testcase name="runScenario[&quot;Home page default login&quot;, &quot;Optional[Title of your feature]&quot;](4)" classname="testRunner.TestngRunner" time="0.502"/>
+  <testcase name="runScenario[&quot;Home page default login&quot;, &quot;Optional[Title of your feature]&quot;](5)" classname="testRunner.TestngRunner" time="0.502"/>
+  <testcase name="runScenario[&quot;Title of your scenario outline&quot;, &quot;Optional[Title of your feature]&quot;](6)" classname="testRunner.TestngRunner" time="0.508">
+    <system-out><![CDATA[  Then I verify the Fail in step                         # stepDefinitions.StepDefinition.i_verify_the_success_in_step(java.lang.String)
+  Given Login to the url "https://login.salesforce.com/" # stepDefinitions.StepDefinition.login_to_the_url(java.lang.String)
+  When Verify the title of page                          # stepDefinitions.StepDefinition.verify_the_title_of_page()
+  Then Verify the details                                # stepDefinitions.StepDefinition.verify_the_details(io.cucumber.datatable.DataTable)
+    | fname | lname | email            | contact   | country |
+    | abcd  | xyz   | abcd.xyz@abc.com | 345666566 | US      |
+  Then Enter from City Mumbai                            # stepDefinitions.StepDefinition.enter_from_city_from_city(java.lang.String)
+  And To City Pune                                       # stepDefinitions.StepDefinition.to_city_to_city(java.lang.String)
+  Then Click on Search button                            # stepDefinitions.StepDefinition.click_on_search_button()
+  Then Close the browser                                 # stepDefinitions.StepDefinition.close_the_browser()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Home page default login&quot;, &quot;Optional[Title of your feature]&quot;](7)" classname="testRunner.TestngRunner" time="0.509">
+    <system-out><![CDATA[  And Cards displayed are "true"                                  # stepDefinitions.stepDefination.cards_displayed_are(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Home page default login&quot;, &quot;Optional[Portal Login]&quot;](1)" classname="testRunner.TestngRunner2extent" time="0.386">
+    <system-out><![CDATA[
+@PortalTest
+Scenario: Home page default login                                 # src/test/java/features/Account.feature:9
+  Given validate the browser                                      # stepDefinitions.stepDefination.validate_the_browser()
+
+@PortalTest
+Scenario: Home page default login                                  # src/test/java/features/Account.feature:23
+  When Browser is triggered                                       # stepDefinitions.stepDefination.browser_is_triggered()
+  Then check if browser is started                                # stepDefinitions.stepDefination.check_if_browser_is_started()
+  Given User is on NetBanking landing page                        # stepDefinitions.stepDefination.user_is_on_netbanking_landing_page()
+
+@tag @WebTest
+Scenario: Home page default login                                 # src/test/java/features/login.feature:24
+  Given validate the browser                                       # stepDefinitions.stepDefination.validate_the_browser()
+  When User login into application with "jin" and password "1234" # stepDefinitions.stepDefination.user_login_into_application_with_something_and_password_something(java.lang.String,java.lang.String)
+  Given User is on NetBanking landing page                        # stepDefinitions.stepDefination.user_is_on_netbanking_landing_page()
+  Then Home page is populated                                     # stepDefinitions.stepDefination.home_page_is_populated()
+  When Browser is triggered                                        # stepDefinitions.stepDefination.browser_is_triggered()
+  Then check if browser is started                                 # stepDefinitions.stepDefination.check_if_browser_is_started()
+  Given User is on NetBanking landing page                         # stepDefinitions.stepDefination.user_is_on_netbanking_landing_page()
+  When User login into application with "john" and password "4321" # stepDefinitions.stepDefination.user_login_into_application_with_something_and_password_something(java.lang.String,java.lang.String)
+  Then Home page is populated                                      # stepDefinitions.stepDefination.home_page_is_populated()
+  And Cards displayed are "false"                                  # stepDefinitions.stepDefination.cards_displayed_are(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[┌───────────────────────────────────────────────────────────────────────────────────┐
+│ Share your Cucumber Report with your team at https://reports.cucumber.io          │
+│ Activate publishing with one of the following:                                    │
+│                                                                                   │
+│ src/test/resources/cucumber.properties:          cucumber.publish.enabled=true    │
+│ src/test/resources/junit-platform.properties:    cucumber.publish.enabled=true    │
+│ Environment variable:                            CUCUMBER_PUBLISH_ENABLED=true    │
+│ JUnit:                                           @CucumberOptions(publish = true) │
+│                                                                                   │
+│ More information at https://cucumber.io/docs/cucumber/environment-variables/      │
+│                                                                                   │
+│ Disable this message with one of the following:                                   │
+│                                                                                   │
+│ src/test/resources/cucumber.properties:          cucumber.publish.quiet=true      │
+│ src/test/resources/junit-platform.properties:    cucumber.publish.quiet=true      │
+└───────────────────────────────────────────────────────────────────────────────────┘
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Home page default login&quot;, &quot;Optional[Portal Login]&quot;](2)" classname="testRunner.TestngRunner2extent" time="0.036">
+    <system-out><![CDATA[
+@PortalTest
+Scenario: Home page default login          # src/test/java/features/Account.feature:29
+  Given validate the browser               # stepDefinitions.stepDefination.validate_the_browser()
+  When Browser is triggered                # stepDefinitions.stepDefination.browser_is_triggered()
+  Then check if browser is started         # stepDefinitions.stepDefination.check_if_browser_is_started()
+  And Cards displayed are "true"                                  # stepDefinitions.stepDefination.cards_displayed_are(java.lang.String)
+  When User login into application with "jin" and password "1234" # stepDefinitions.stepDefination.user_login_into_application_with_something_and_password_something(java.lang.String,java.lang.String)
+
+@PortalTest
+Scenario: Home page default login                                  # src/test/java/features/Account.feature:16
+  Given validate the browser                                       # stepDefinitions.stepDefination.validate_the_browser()
+
+@tag @MobileTest
+Scenario: Home page default login                                  # src/test/java/features/login.feature:31
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Home page default login&quot;, &quot;Optional[Title of your feature]&quot;](3)" classname="testRunner.TestngRunner2extent" time="0.103">
+    <system-out><![CDATA[  Then Home page is populated                                     # stepDefinitions.stepDefination.home_page_is_populated()
+  Given User is on NetBanking landing page                         # stepDefinitions.stepDefination.user_is_on_netbanking_landing_page()
+  When User login into application with "john" and password "4321" # stepDefinitions.stepDefination.user_login_into_application_with_something_and_password_something(java.lang.String,java.lang.String)
+  Given User is on NetBanking landing page # stepDefinitions.stepDefination.user_is_on_netbanking_landing_page()
+  When Browser is triggered                                        # stepDefinitions.stepDefination.browser_is_triggered()
+  And Cards displayed are "true"                                  # stepDefinitions.stepDefination.cards_displayed_are(java.lang.String)
+
+Scenario Outline: Home page default login                         # src/test/java/features/Account.feature:48
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Home page default login&quot;, &quot;Optional[Portal Login]&quot;](4)" classname="testRunner.TestngRunner2extent" time="0.068">
+    <system-out><![CDATA[  Given validate the browser                                      # stepDefinitions.stepDefination.validate_the_browser()
+  When Browser is triggered                                       # stepDefinitions.stepDefination.browser_is_triggered()
+  When User sign up with following details # stepDefinitions.stepDefination.user_sign_up_with_following_details(io.cucumber.datatable.DataTable)
+    | jenny | abcd | john@abcd.com | Australia | 3242353 |
+  Then Home page is populated                                      # stepDefinitions.stepDefination.home_page_is_populated()
+  And Cards displayed are "false"                                  # stepDefinitions.stepDefination.cards_displayed_are(java.lang.String)
+  Then check if browser is started                                # stepDefinitions.stepDefination.check_if_browser_is_started()
+  Then check if browser is started                                 # stepDefinitions.stepDefination.check_if_browser_is_started()
+
+Scenario Outline: Home page default login                         # src/test/java/features/Account.feature:46
+  Given validate the browser                                      # stepDefinitions.stepDefination.validate_the_browser()
+  Given User is on NetBanking landing page                        # stepDefinitions.stepDefination.user_is_on_netbanking_landing_page()
+  Then Home page is populated              # stepDefinitions.stepDefination.home_page_is_populated()
+  When User login in to application with user3 and password pass3 # stepDefinitions.stepDefination.user_login_into_application_with_and_password(java.lang.String,java.lang.String)
+  Given User is on NetBanking landing page                         # stepDefinitions.stepDefination.user_is_on_netbanking_landing_page()
+  When User login into application with "john" and password "4321" # stepDefinitions.stepDefination.user_login_into_application_with_something_and_password_something(java.lang.String,java.lang.String)
+
+@tag @MobileTest
+Scenario: Home page default login          # src/test/java/features/login.feature:44
+
+Scenario Outline: Home page default login                         # src/test/java/features/Account.feature:49
+  Then Home page is populated                                      # stepDefinitions.stepDefination.home_page_is_populated()
+  Then Home page is populated                                     # stepDefinitions.stepDefination.home_page_is_populated()
+
+@tag @WebTest
+Scenario Outline: Home page default login                         # src/test/java/features/login.feature:62
+  And Cards displayed are "false"          # stepDefinitions.stepDefination.cards_displayed_are(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Home page default login&quot;, &quot;Optional[Title of your feature]&quot;](5)" classname="testRunner.TestngRunner2extent" time="0.03">
+    <system-out><![CDATA[  When Browser is triggered                                       # stepDefinitions.stepDefination.browser_is_triggered()
+  Given validate the browser                                      # stepDefinitions.stepDefination.validate_the_browser()
+  And Cards displayed are "false"                                  # stepDefinitions.stepDefination.cards_displayed_are(java.lang.String)
+  Given User is on NetBanking landing page # stepDefinitions.stepDefination.user_is_on_netbanking_landing_page()
+
+@tag @WebTest
+Scenario Outline: Home page default login                         # src/test/java/features/login.feature:63
+  Given User is on NetBanking landing page                        # stepDefinitions.stepDefination.user_is_on_netbanking_landing_page()
+  When User login in to application with user2 and password pass2 # stepDefinitions.stepDefination.user_login_into_application_with_and_password(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Home page default login&quot;, &quot;Optional[Portal Login]&quot;](6)" classname="testRunner.TestngRunner2extent" time="0"/>
+  <testcase name="runScenario[&quot;Home page default login&quot;, &quot;Optional[Portal Login]&quot;](7)" classname="testRunner.TestngRunner2extent" time="0.025">
+    <system-out><![CDATA[  When Browser is triggered                                       # stepDefinitions.stepDefination.browser_is_triggered()
+  Then check if browser is started                                # stepDefinitions.stepDefination.check_if_browser_is_started()
+  Then Home page is populated                                     # stepDefinitions.stepDefination.home_page_is_populated()
+
+@tag @SmokeTest
+Scenario: Home page default login                                  # src/test/java/features/login.feature:38
+
+Scenario Outline: Home page default login                         # src/test/java/features/Account.feature:47
+  And Cards displayed are "true"                                  # stepDefinitions.stepDefination.cards_displayed_are(java.lang.String)
+  When User sign up with following details # stepDefinitions.stepDefination.user_sign_up_with_following_details(io.cucumber.datatable.DataTable)
+    | jenny | abcd | john@abcd.com | Australia | 3242353 |
+  Given User is on NetBanking landing page                         # stepDefinitions.stepDefination.user_is_on_netbanking_landing_page()
+  And Cards displayed are "true"                                  # stepDefinitions.stepDefination.cards_displayed_are(java.lang.String)
+  Given User is on NetBanking landing page                        # stepDefinitions.stepDefination.user_is_on_netbanking_landing_page()
+  When User login in to application with user1 and password pass1 # stepDefinitions.stepDefination.user_login_into_application_with_and_password(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Home page default login&quot;, &quot;Optional[Title of your feature]&quot;](8)" classname="testRunner.TestngRunner2extent" time="0.041">
+    <system-out><![CDATA[  Then check if browser is started                                # stepDefinitions.stepDefination.check_if_browser_is_started()
+  When User login into application with "john" and password "4321" # stepDefinitions.stepDefination.user_login_into_application_with_something_and_password_something(java.lang.String,java.lang.String)
+  Given validate the browser                                      # stepDefinitions.stepDefination.validate_the_browser()
+  When Browser is triggered                                       # stepDefinitions.stepDefination.browser_is_triggered()
+  Then Home page is populated                                      # stepDefinitions.stepDefination.home_page_is_populated()
+  Then Home page is populated                                     # stepDefinitions.stepDefination.home_page_is_populated()
+  Then check if browser is started                                # stepDefinitions.stepDefination.check_if_browser_is_started()
+  Given User is on NetBanking landing page                        # stepDefinitions.stepDefination.user_is_on_netbanking_landing_page()
+  Then Home page is populated              # stepDefinitions.stepDefination.home_page_is_populated()
+  And Cards displayed are "false"                                  # stepDefinitions.stepDefination.cards_displayed_are(java.lang.String)
+  And Cards displayed are "false"          # stepDefinitions.stepDefination.cards_displayed_are(java.lang.String)
+  Given User is on NetBanking landing page                        # stepDefinitions.stepDefination.user_is_on_netbanking_landing_page()
+  Given User is on NetBanking landing page                        # stepDefinitions.stepDefination.user_is_on_netbanking_landing_page()
+  And Cards displayed are "true"                                  # stepDefinitions.stepDefination.cards_displayed_are(java.lang.String)
+  When User login in to application with user2 and password pass2 # stepDefinitions.stepDefination.user_login_into_application_with_and_password(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Home page default login&quot;, &quot;Optional[Portal Login]&quot;](9)" classname="testRunner.TestngRunner2extent" time="0.002">
+    <system-out><![CDATA[  When User login in to application with user4 and password pass4 # stepDefinitions.stepDefination.user_login_into_application_with_and_password(java.lang.String,java.lang.String)
+  Then Home page is populated                                     # stepDefinitions.stepDefination.home_page_is_populated()
+  And Cards displayed are "true"                                  # stepDefinitions.stepDefination.cards_displayed_are(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Home page default login&quot;, &quot;Optional[Portal Login]&quot;](10)" classname="testRunner.TestngRunner2extent" time="0.052">
+    <system-out><![CDATA[  Then Home page is populated                                     # stepDefinitions.stepDefination.home_page_is_populated()
+  And Cards displayed are "true"                                  # stepDefinitions.stepDefination.cards_displayed_are(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Home page default login&quot;, &quot;Optional[Title of your feature]&quot;](11)" classname="testRunner.TestngRunner2extent" time="0.068">
+    <system-out><![CDATA[  When User login in to application with user1 and password pass1 # stepDefinitions.stepDefination.user_login_into_application_with_and_password(java.lang.String,java.lang.String)
+  Then Home page is populated                                     # stepDefinitions.stepDefination.home_page_is_populated()
+  And Cards displayed are "true"                                  # stepDefinitions.stepDefination.cards_displayed_are(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Home page default login&quot;, &quot;Optional[Title of your feature]&quot;](12)" classname="testRunner.TestngRunner2extent" time="0.068"/>
+  <testcase name="runScenario[&quot;Home page default login&quot;, &quot;Optional[Portal Login]&quot;](13)" classname="testRunner.TestngRunner2extent" time="0.068"/>
+  <testcase name="runScenario[&quot;Home page default login&quot;, &quot;Optional[Title of your feature]&quot;](14)" classname="testRunner.TestngRunner2extent" time="0.068"/>
+  <testcase name="runScenario[&quot;Title of your scenario outline&quot;, &quot;Optional[Title of your feature]&quot;](15)" classname="testRunner.TestngRunner2extent" time="0.167">
+    <system-out><![CDATA[
+@tag @tag2
+Scenario Outline: Title of your scenario outline         # src/test/java/features/login.feature:96
+  Given I want to write a step with name2                # stepDefinitions.StepDefinition.i_want_to_write_a_step_with_name1(java.lang.String)
+  When I check for the 7 in step                         # stepDefinitions.StepDefinition.i_check_for_the_in_step(java.lang.Integer)
+  Then I verify the Fail in step                         # stepDefinitions.StepDefinition.i_verify_the_success_in_step(java.lang.String)
+  Given Login to the url "https://login.salesforce.com/" # stepDefinitions.StepDefinition.login_to_the_url(java.lang.String)
+  When Verify the title of page                          # stepDefinitions.StepDefinition.verify_the_title_of_page()
+  Then Verify the details                                # stepDefinitions.StepDefinition.verify_the_details(io.cucumber.datatable.DataTable)
+    | fname | lname | email            | contact   | country |
+    | abcd  | xyz   | abcd.xyz@abc.com | 345666566 | US      |
+  Then Enter from City Mumbai                            # stepDefinitions.StepDefinition.enter_from_city_from_city(java.lang.String)
+  And To City Pune                                       # stepDefinitions.StepDefinition.to_city_to_city(java.lang.String)
+  Then Click on Search button                            # stepDefinitions.StepDefinition.click_on_search_button()
+  Then Close the browser                                 # stepDefinitions.StepDefinition.close_the_browser()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Home page default login&quot;, &quot;Optional[Title of your feature]&quot;](17)" classname="testRunner.TestngRunner2extent" time="0.217">
+    <system-out><![CDATA[
+@tag @tag1
+Scenario: Title of your scenario                 # src/test/java/features/login.feature:68
+  Given I want to write a step with precondition # stepDefinitions.StepDefinition.i_want_to_write_a_step_with_name1(java.lang.String)
+
+@tag @tag2
+Scenario Outline: Title of your scenario outline         # src/test/java/features/login.feature:95
+  And some other precondition                    # stepDefinitions.StepDefinition.some_other_precondition()
+
+@tag @WebTest
+Scenario Outline: Home page default login                         # src/test/java/features/login.feature:64
+
+@tag @WebTest
+Scenario Outline: Home page default login                         # src/test/java/features/login.feature:65
+  Given User is on NetBanking landing page                        # stepDefinitions.stepDefination.user_is_on_netbanking_landing_page()
+  When User login in to application with user4 and password pass4 # stepDefinitions.stepDefination.user_login_into_application_with_and_password(java.lang.String,java.lang.String)
+  Given I want to write a step with name1                # stepDefinitions.StepDefinition.i_want_to_write_a_step_with_name1(java.lang.String)
+  When I complete action "abcd"                  # stepDefinitions.StepDefinition.i_complete_action(java.lang.String)
+  Then Home page is populated                                     # stepDefinitions.stepDefination.home_page_is_populated()
+  When I check for the 5 in step                         # stepDefinitions.StepDefinition.i_check_for_the_in_step(java.lang.Integer)
+  And some other action                          # stepDefinitions.StepDefinition.some_other_action()
+  Given User is on NetBanking landing page                        # stepDefinitions.stepDefination.user_is_on_netbanking_landing_page()
+  Then I verify the success in step                      # stepDefinitions.StepDefinition.i_verify_the_success_in_step(java.lang.String)
+  And yet another action                         # stepDefinitions.StepDefinition.yet_another_action()
+  Then I validate the outcomes                   # stepDefinitions.StepDefinition.i_validate_the_outcomes()
+  And check more outcomes                        # stepDefinitions.StepDefinition.check_more_outcomes()
+  And Cards displayed are "true"                                  # stepDefinitions.stepDefination.cards_displayed_are(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Title of your scenario&quot;, &quot;Optional[Title of your feature]&quot;](16)" classname="testRunner.TestngRunner2extent" time="0.217"/>
+  <testcase name="runScenario[&quot;Title of your scenario outline&quot;, &quot;Optional[Title of your feature]&quot;](18)" classname="testRunner.TestngRunner2extent" time="0.327">
+    <system-out><![CDATA[  Given Login to the url "https://login.salesforce.com/" # stepDefinitions.StepDefinition.login_to_the_url(java.lang.String)
+  When Verify the title of page                          # stepDefinitions.StepDefinition.verify_the_title_of_page()
+  Then Verify the details                                # stepDefinitions.StepDefinition.verify_the_details(io.cucumber.datatable.DataTable)
+    | fname | lname | email            | contact   | country |
+    | abcd  | xyz   | abcd.xyz@abc.com | 345666566 | US      |
+  Then Enter from City Pune                              # stepDefinitions.StepDefinition.enter_from_city_from_city(java.lang.String)
+  And To City Mumbai                                     # stepDefinitions.StepDefinition.to_city_to_city(java.lang.String)
+  Then Click on Search button                            # stepDefinitions.StepDefinition.click_on_search_button()
+  Then Close the browser                                 # stepDefinitions.StepDefinition.close_the_browser()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Home page default login&quot;, &quot;Optional[Title of your feature]&quot;](19)" classname="testRunner.TestngRunner2extent" time="0.328">
+    <system-out><![CDATA[  When User login in to application with user3 and password pass3 # stepDefinitions.stepDefination.user_login_into_application_with_and_password(java.lang.String,java.lang.String)
+  Then Home page is populated                                     # stepDefinitions.stepDefination.home_page_is_populated()
+  And Cards displayed are "true"                                  # stepDefinitions.stepDefination.cards_displayed_are(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Home page default login&quot;, &quot;Optional[Title of your feature]&quot;](1)" classname="testRunner.TestngRunnerfailedTS" time="0.096">
+    <system-out><![CDATA[
+@tag @WebTest
+Scenario Outline: Home page default login                         # src/test/java/features/login.feature:64
+  Given User is on NetBanking landing page                        # stepDefinitions.stepDefination.user_is_on_netbanking_landing_page()
+  When User login in to application with user3 and password pass3 # stepDefinitions.stepDefination.user_login_into_application_with_and_password(java.lang.String,java.lang.String)
+  Then Home page is populated                                     # stepDefinitions.stepDefination.home_page_is_populated()
+  And Cards displayed are "true"                                  # stepDefinitions.stepDefination.cards_displayed_are(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[┌───────────────────────────────────────────────────────────────────────────────────┐
+│ Share your Cucumber Report with your team at https://reports.cucumber.io          │
+│ Activate publishing with one of the following:                                    │
+│                                                                                   │
+│ src/test/resources/cucumber.properties:          cucumber.publish.enabled=true    │
+│ src/test/resources/junit-platform.properties:    cucumber.publish.enabled=true    │
+│ Environment variable:                            CUCUMBER_PUBLISH_ENABLED=true    │
+│ JUnit:                                           @CucumberOptions(publish = true) │
+│                                                                                   │
+│ More information at https://cucumber.io/docs/cucumber/environment-variables/      │
+│                                                                                   │
+│ Disable this message with one of the following:                                   │
+│                                                                                   │
+│ src/test/resources/cucumber.properties:          cucumber.publish.quiet=true      │
+│ src/test/resources/junit-platform.properties:    cucumber.publish.quiet=true      │
+└───────────────────────────────────────────────────────────────────────────────────┘
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Home page default login&quot;, &quot;Optional[Title of your feature]&quot;](2)" classname="testRunner.TestngRunnerfailedTS" time="0.153">
+    <system-out><![CDATA[
+@tag @WebTest
+Scenario Outline: Home page default login                         # src/test/java/features/login.feature:63
+  Given User is on NetBanking landing page                        # stepDefinitions.stepDefination.user_is_on_netbanking_landing_page()
+  When User login in to application with user2 and password pass2 # stepDefinitions.stepDefination.user_login_into_application_with_and_password(java.lang.String,java.lang.String)
+  Then Home page is populated                                     # stepDefinitions.stepDefination.home_page_is_populated()
+  And Cards displayed are "true"                                  # stepDefinitions.stepDefination.cards_displayed_are(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Title of your scenario outline&quot;, &quot;Optional[Title of your feature]&quot;](3)" classname="testRunner.TestngRunnerfailedTS" time="0.164">
+    <system-out><![CDATA[
+@tag @tag2
+Scenario Outline: Title of your scenario outline         # src/test/java/features/login.feature:96
+  Given I want to write a step with name2                # stepDefinitions.StepDefinition.i_want_to_write_a_step_with_name1(java.lang.String)
+  When I check for the 7 in step                         # stepDefinitions.StepDefinition.i_check_for_the_in_step(java.lang.Integer)
+  Then I verify the Fail in step                         # stepDefinitions.StepDefinition.i_verify_the_success_in_step(java.lang.String)
+  Given Login to the url "https://login.salesforce.com/" # stepDefinitions.StepDefinition.login_to_the_url(java.lang.String)
+  When Verify the title of page                          # stepDefinitions.StepDefinition.verify_the_title_of_page()
+  Then Verify the details                                # stepDefinitions.StepDefinition.verify_the_details(io.cucumber.datatable.DataTable)
+    | fname | lname | email            | contact   | country |
+    | abcd  | xyz   | abcd.xyz@abc.com | 345666566 | US      |
+  Then Enter from City Mumbai                            # stepDefinitions.StepDefinition.enter_from_city_from_city(java.lang.String)
+  And To City Pune                                       # stepDefinitions.StepDefinition.to_city_to_city(java.lang.String)
+  Then Click on Search button                            # stepDefinitions.StepDefinition.click_on_search_button()
+  Then Close the browser                                 # stepDefinitions.StepDefinition.close_the_browser()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Home page default login&quot;, &quot;Optional[Title of your feature]&quot;](4)" classname="testRunner.TestngRunnerfailedTS" time="0.167">
+    <system-out><![CDATA[
+@tag @WebTest
+Scenario: Home page default login                                 # src/test/java/features/login.feature:24
+  Given User is on NetBanking landing page                        # stepDefinitions.stepDefination.user_is_on_netbanking_landing_page()
+  When User login into application with "jin" and password "1234" # stepDefinitions.stepDefination.user_login_into_application_with_something_and_password_something(java.lang.String,java.lang.String)
+  Then Home page is populated                                     # stepDefinitions.stepDefination.home_page_is_populated()
+  And Cards displayed are "true"                                  # stepDefinitions.stepDefination.cards_displayed_are(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Home page default login&quot;, &quot;Optional[Title of your feature]&quot;](5)" classname="testRunner.TestngRunnerfailedTS" time="0.178">
+    <system-out><![CDATA[
+@tag @WebTest
+Scenario Outline: Home page default login                         # src/test/java/features/login.feature:62
+  Given User is on NetBanking landing page                        # stepDefinitions.stepDefination.user_is_on_netbanking_landing_page()
+  When User login in to application with user1 and password pass1 # stepDefinitions.stepDefination.user_login_into_application_with_and_password(java.lang.String,java.lang.String)
+  Then Home page is populated                                     # stepDefinitions.stepDefination.home_page_is_populated()
+  And Cards displayed are "true"                                  # stepDefinitions.stepDefination.cards_displayed_are(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Title of your scenario outline&quot;, &quot;Optional[Title of your feature]&quot;](6)" classname="testRunner.TestngRunnerfailedTS" time="0.192">
+    <system-out><![CDATA[
+@tag @tag2
+Scenario Outline: Title of your scenario outline         # src/test/java/features/login.feature:95
+  Given I want to write a step with name1                # stepDefinitions.StepDefinition.i_want_to_write_a_step_with_name1(java.lang.String)
+  When I check for the 5 in step                         # stepDefinitions.StepDefinition.i_check_for_the_in_step(java.lang.Integer)
+  Then I verify the success in step                      # stepDefinitions.StepDefinition.i_verify_the_success_in_step(java.lang.String)
+  Given Login to the url "https://login.salesforce.com/" # stepDefinitions.StepDefinition.login_to_the_url(java.lang.String)
+  When Verify the title of page                          # stepDefinitions.StepDefinition.verify_the_title_of_page()
+  Then Verify the details                                # stepDefinitions.StepDefinition.verify_the_details(io.cucumber.datatable.DataTable)
+    | fname | lname | email            | contact   | country |
+    | abcd  | xyz   | abcd.xyz@abc.com | 345666566 | US      |
+  Then Enter from City Pune                              # stepDefinitions.StepDefinition.enter_from_city_from_city(java.lang.String)
+  And To City Mumbai                                     # stepDefinitions.StepDefinition.to_city_to_city(java.lang.String)
+  Then Click on Search button                            # stepDefinitions.StepDefinition.click_on_search_button()
+  Then Close the browser                                 # stepDefinitions.StepDefinition.close_the_browser()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Home page default login&quot;, &quot;Optional[Title of your feature]&quot;](7)" classname="testRunner.TestngRunnerfailedTS" time="0.195">
+    <system-out><![CDATA[
+@tag @WebTest
+Scenario Outline: Home page default login                         # src/test/java/features/login.feature:65
+  Given User is on NetBanking landing page                        # stepDefinitions.stepDefination.user_is_on_netbanking_landing_page()
+  When User login in to application with user4 and password pass4 # stepDefinitions.stepDefination.user_login_into_application_with_and_password(java.lang.String,java.lang.String)
+  Then Home page is populated                                     # stepDefinitions.stepDefination.home_page_is_populated()
+  And Cards displayed are "true"                                  # stepDefinitions.stepDefination.cards_displayed_are(java.lang.String)
+]]></system-out>
+  </testcase>
+</testsuite>

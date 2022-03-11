@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Regression(failed)">
+    <parameter name="API/Key" value="123456"/>
+    <parameter name="URL" value="https://rahulshettyacademy.com/AutomationPractice/"/>
+    <classes>
+      <class name="testNGexample.DataProvideroperation">
+        <methods>
+          <include name="fun1"/>
+        </methods>
+      </class> <!-- testNGexample.DataProvideroperation -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Suite] -->

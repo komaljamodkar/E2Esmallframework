@@ -1,0 +1,5 @@
+10:15:17.458 [main] DEBUG beta.SeleniumExample - Identifying Draggable objects
+10:15:18.065 [main] INFO  beta.SeleniumExample - Drag and drop success
+10:15:18.096 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+10:18:56.987 [main] ERROR alpha.Demo - Cannot identify the frame
+10:18:56.992 [main] FATAL alpha.Demo - print fatal message

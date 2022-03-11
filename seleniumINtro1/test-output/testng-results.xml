@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="158" started-at="2022-02-24T11:05:38 IST" finished-at="2022-02-24T11:05:38 IST">
+    <groups>
+    </groups>
+    <test name="Regression" duration-ms="158" started-at="2022-02-24T11:05:38 IST" finished-at="2022-02-24T11:05:38 IST">
+      <class name="testNGexample.SampleParameters">
+        <test-method status="PASS" signature="fun1(java.lang.String)[pri:0, instance:testNGexample.SampleParameters@5891e32e]" name="fun1" duration-ms="15" started-at="2022-02-24T11:05:38 IST" finished-at="2022-02-24T11:05:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://rahulshettyacademy.com/AutomationPractice/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fun1 -->
+      </class> <!-- testNGexample.SampleParameters -->
+      <class name="testNGexample.DataProvideroperation">
+        <test-method status="PASS" signature="bmethod1()[pri:0, instance:testNGexample.DataProvideroperation@c81cdd1]" name="bmethod1" is-config="true" duration-ms="4" started-at="2022-02-24T11:05:38 IST" finished-at="2022-02-24T11:05:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod1 -->
+        <test-method status="PASS" signature="bmethod2()[pri:0, instance:testNGexample.DataProvideroperation@c81cdd1]" name="bmethod2" is-config="true" duration-ms="1" started-at="2022-02-24T11:05:38 IST" finished-at="2022-02-24T11:05:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod2 -->
+        <test-method status="PASS" signature="bmethod3()[pri:0, instance:testNGexample.DataProvideroperation@c81cdd1]" name="bmethod3" is-config="true" duration-ms="0" started-at="2022-02-24T11:05:38 IST" finished-at="2022-02-24T11:05:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod3 -->
+        <test-method status="PASS" signature="dataproviderFun1(java.lang.String,java.lang.String)[pri:0, instance:testNGexample.DataProvideroperation@c81cdd1]" name="dataproviderFun1" duration-ms="8" started-at="2022-02-24T11:05:38 IST" data-provider="getData" finished-at="2022-02-24T11:05:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstUserName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataproviderFun1 -->
+        <test-method status="PASS" signature="bmethod1()[pri:0, instance:testNGexample.DataProvideroperation@c81cdd1]" name="bmethod1" is-config="true" duration-ms="1" started-at="2022-02-24T11:05:38 IST" finished-at="2022-02-24T11:05:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod1 -->
+        <test-method status="PASS" signature="bmethod2()[pri:0, instance:testNGexample.DataProvideroperation@c81cdd1]" name="bmethod2" is-config="true" duration-ms="1" started-at="2022-02-24T11:05:38 IST" finished-at="2022-02-24T11:05:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod2 -->
+        <test-method status="PASS" signature="bmethod3()[pri:0, instance:testNGexample.DataProvideroperation@c81cdd1]" name="bmethod3" is-config="true" duration-ms="0" started-at="2022-02-24T11:05:38 IST" finished-at="2022-02-24T11:05:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod3 -->
+        <test-method status="PASS" signature="dataproviderFun1(java.lang.String,java.lang.String)[pri:0, instance:testNGexample.DataProvideroperation@c81cdd1]" name="dataproviderFun1" duration-ms="2" started-at="2022-02-24T11:05:38 IST" data-provider="getData" finished-at="2022-02-24T11:05:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondUserName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataproviderFun1 -->
+        <test-method status="PASS" signature="bmethod1()[pri:0, instance:testNGexample.DataProvideroperation@c81cdd1]" name="bmethod1" is-config="true" duration-ms="1" started-at="2022-02-24T11:05:38 IST" finished-at="2022-02-24T11:05:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod1 -->
+        <test-method status="PASS" signature="bmethod2()[pri:0, instance:testNGexample.DataProvideroperation@c81cdd1]" name="bmethod2" is-config="true" duration-ms="1" started-at="2022-02-24T11:05:38 IST" finished-at="2022-02-24T11:05:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod2 -->
+        <test-method status="PASS" signature="bmethod3()[pri:0, instance:testNGexample.DataProvideroperation@c81cdd1]" name="bmethod3" is-config="true" duration-ms="1" started-at="2022-02-24T11:05:38 IST" finished-at="2022-02-24T11:05:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod3 -->
+        <test-method status="PASS" signature="dataproviderFun1(java.lang.String,java.lang.String)[pri:0, instance:testNGexample.DataProvideroperation@c81cdd1]" name="dataproviderFun1" duration-ms="4" started-at="2022-02-24T11:05:38 IST" data-provider="getData" finished-at="2022-02-24T11:05:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdUserName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataproviderFun1 -->
+      </class> <!-- testNGexample.DataProvideroperation -->
+    </test> <!-- Regression -->
+  </suite> <!-- Suite -->
+</testng-results>
