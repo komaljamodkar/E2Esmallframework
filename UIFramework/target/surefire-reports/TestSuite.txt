@@ -1,8 +1,34 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 51.161 s <<< FAILURE! - in TestSuite
-testcases.ValidateTitleCase.validateTitle  Time elapsed: 4.123 s  <<< FAILURE!
-java.lang.AssertionError: expected [ ] but found [Login | Salesforce]
-	at testcases.ValidateTitleCase.validateTitle(ValidateTitleCase.java:37)
+Tests run: 9, Failures: 3, Errors: 0, Skipped: 6, Time elapsed: 35.99 s <<< FAILURE! - in TestSuite
+testcases.RegisterTestCase01.start  Time elapsed: 25.361 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 97
+Current browser version is 99.0.4844.51 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'DESKTOP-BD50LHC', ip: '192.168.43.74', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+	at testcases.RegisterTestCase01.start(RegisterTestCase01.java:24)
+
+testcases.ValidateTitleCase.start  Time elapsed: 25.375 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 97
+Current browser version is 99.0.4844.51 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'DESKTOP-BD50LHC', ip: '192.168.43.74', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+	at testcases.ValidateTitleCase.start(ValidateTitleCase.java:25)
+
+testcases.HomePageTestCase01.start  Time elapsed: 25.376 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 97
+Current browser version is 99.0.4844.51 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'DESKTOP-BD50LHC', ip: '192.168.43.74', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+	at testcases.HomePageTestCase01.start(HomePageTestCase01.java:26)
 

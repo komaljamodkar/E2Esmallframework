@@ -11,8 +11,10 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.AfterTest;
 
 //add testNG library
@@ -26,18 +28,32 @@ public class Baseclass {
 		
 		prop.load(fis);
 
-		String browser=prop.getProperty("browser");
+		//String browser=prop.getProperty("browser");
+		
+		//pass paramaeter though maven or jenkins as run on chrome brwoser
+		// these property get from System.property("")
+		//mvn test -Dbrowser=CHROME
+	String browser=System.getProperty("browser");
+	//run in cmd prompt  mvn test -Dbrowser=CHROME
 		
 		System.out.println(browser);
 			switch(browser) {
 			case "CHROME":
 				System.setProperty("webdriver.chrome.driver",".\\drivers\\chromedriver.exe");
-			    driver =new ChromeDriver();
+				ChromeOptions option=new ChromeOptions();
+				if(browser.contains("headless")) {
+					option.addArguments("headless");
+				}
+				driver =new ChromeDriver(option);
 
 				break;
 			case "FIREFOX":
 				System.setProperty("webdriver.chrome.driver",".\\drivers\\geckodriver.exe");
-				driver=new FirefoxDriver();
+				FirefoxOptions option1=new FirefoxOptions();
+				if(browser.contains("headless")) {
+					option1.addArguments("headless");
+				}
+				driver=new FirefoxDriver(option1);
 				break;
 			case "EDGE":
 				System.setProperty("webdriver.chrome.driver",".\\drivers\\msedgedriver.exe");

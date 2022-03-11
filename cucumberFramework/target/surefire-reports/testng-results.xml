@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="24818" started-at="2022-03-09T14:53:35 IST" finished-at="2022-03-09T14:54:00 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunnerFiles.TestNGTestRunner@462d5aee]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="24818" started-at="2022-03-09T14:53:35 IST" finished-at="2022-03-09T14:54:00 IST">
+      <class name="testrunnerFiles.TestNGTestRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testrunnerFiles.TestNGTestRunner@462d5aee]" name="setUpClass" is-config="true" duration-ms="3408" started-at="2022-03-09T14:53:35 IST" finished-at="2022-03-09T14:53:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3f053c80]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunnerFiles.TestNGTestRunner@462d5aee]" name="runScenario" duration-ms="19969" started-at="2022-03-09T14:53:39 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-09T14:53:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search Experience for product search in both home and Offers page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Place the order for Products]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testrunnerFiles.TestNGTestRunner@462d5aee]" name="tearDownClass" is-config="true" duration-ms="1050" started-at="2022-03-09T14:53:59 IST" finished-at="2022-03-09T14:54:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunnerFiles.TestNGTestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

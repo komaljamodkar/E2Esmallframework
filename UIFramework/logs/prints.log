@@ -1,5 +1,1 @@
-13:31:06.281 [TestNG-tests-3] INFO  testcases.ValidateTitleCase - Naviagted to Register page
-13:31:06.303 [TestNG-tests-2] INFO  testcases.HomePageTestCase01 - Naviagted to Register page
-13:31:06.313 [TestNG-tests-1] INFO  testcases.RegisterTestCase01 - Naviagted to Register page
-13:31:21.096 [TestNG-tests-2] INFO  testcases.HomePageTestCase01 - verified page sucessfully..
-13:31:34.065 [TestNG-tests-1] INFO  testcases.RegisterTestCase01 - verified page sucessfully..
+18:11:41.784 [AsyncHttpClient-1-4] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
