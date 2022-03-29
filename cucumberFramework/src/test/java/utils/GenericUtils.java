@@ -47,4 +47,15 @@ public class GenericUtils {
 	public String gettext(WebElement element) {
 		return element.getText();
 	}	
+	
+	// press F8 paused in debugger
+	public void waitforLoadingIconToDisappear(String xpath) {
+		List<WebElement> loadingIcon=driver.findElements(By.xpath(""));
+		int count=0;
+		while(loadingIcon.size()!=0 && count<10) {
+			staticWait(1);
+			count++;
+		}		
+		
+	}
 }
